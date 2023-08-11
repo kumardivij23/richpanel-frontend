@@ -1,0 +1,51 @@
+.sign-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(36, 87, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-box{
+    background-color: white;
+    padding: 50px;
+    width: 420px;
+    border-radius: 8px;
+
+}
+.sign-box h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:300;
+}
+.sign-box input[type='text'], input[type='email'],input[type='password']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+}
+.sign-box button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 30px;
+    background-color: rgb(36, 87, 196);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.change-tab{
+    text-align: center;
+}
+.change-tab p{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.link{
+    text-decoration: none;
+}

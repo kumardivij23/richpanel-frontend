@@ -1,0 +1,103 @@
+.pricing-container{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-container h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.table{
+    width: 750px;
+    margin: auto;
+    margin-top: 40px;
+}
+/* .monthly-pack,.yearly-pack{
+    display: none;
+} */
+.Inactive{
+    display: none;
+}
+
+.time-zone{
+    background-color: rgb(36, 87, 196);
+    padding: 10px;
+    border-radius: 28px;
+    display: inline-block;
+}
+.time-zone button{
+    padding: 8px;
+    margin: 4px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+.time-button{
+    background-color: white !important;
+    color: rgb(36, 87, 196) !important;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.body-row{
+    border-bottom: 2px solid rgb(218, 218, 218);
+}
+.table-header .col2,.col3,.col4,.col5{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-div{
+    background-color: rgb(159, 178, 217);
+    color: white;
+    height: 90px;
+    cursor: pointer;
+}
+.head-clicked{
+    background-color: rgb(36, 87, 196);
+}
+
+.col{
+    width: 90px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.col1{
+    width: 250px;
+    justify-content: flex-start;
+}
+.last-row .col{
+    display: flex;
+    flex-direction: column;
+}
+.last-row{
+    align-items: flex-start;
+}
+.col p{
+    padding: 10px;
+}
+.next-button{
+    
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(36, 87, 196);
+    border: 0;
+    cursor: pointer;
+}
+.clicked{
+    color:rgb(36, 87, 196);
+}
